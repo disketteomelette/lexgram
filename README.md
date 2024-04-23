@@ -1,5 +1,5 @@
 # lexgram
-Analiza las notificaciones judiciales de tu bandeja de entrada, extrae los datos importantes, comprime y encripta el PDF y te lo manda a Telegram. Está preparado para notificaciones en español y siguiendo el estándar de España.
+Analiza las notificaciones judiciales de tu bandeja de entrada, extrae los datos importantes, comprime y encripta el PDF y te lo manda a Telegram. Está preparado para notificaciones en español y siguiendo el estándar de España. Creado como un mix de bash + python para ser ejecutado como servicio en un servidor linux.
 
 # Idea
 La idea es tener un canal donde el usuario reciba un extracto de las notificaciones judiciales recibidas por e-mail. De esta forma, puede conocerse de un sólo vistazo las últimas notificaciones sin necesidad de buscarlas en el correo electrónico. Además proporciona distintos datos extraídos de las resoluciones, y una copia encriptada del PDF de la resolución para ser abierta directamente desde el móvil. Creé este programa en 2018 para mi tranquilidad, y lo comparto por si puede ser útil a la gente. 
